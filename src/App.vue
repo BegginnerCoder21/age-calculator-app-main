@@ -1,10 +1,11 @@
 <script setup lang="ts">
+import Home from '@/components/views/Home.vue';
 
 </script>
 
 <template>
-  <main>
-    <h1>hello world</h1>
+  <main class="bg-gray-200 h-screen flex items-center justify-center">
+    <Home />
   </main>
 </template>
 
